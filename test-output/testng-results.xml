@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13649" started-at="2019-12-16T05:59:38Z" finished-at="2019-12-16T05:59:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13649" started-at="2019-12-16T05:59:38Z" finished-at="2019-12-16T05:59:51Z">
+      <class name="casestudies.casestudies.Registerpage">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:casestudies.casestudies.Registerpage@3bfdc050]" name="beforeTest" is-config="true" duration-ms="9246" started-at="2019-12-16T05:59:38Z" finished-at="2019-12-16T05:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="enter_the_URL()[pri:1, instance:casestudies.casestudies.Registerpage@3bfdc050]" name="enter_the_URL" duration-ms="4363" started-at="2019-12-16T05:59:47Z" finished-at="2019-12-16T05:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_the_URL -->
+        <test-method status="FAIL" signature="username_is(java.lang.String)[pri:2, instance:casestudies.casestudies.Registerpage@3bfdc050]" name="username_is" duration-ms="0" started-at="2019-12-16T05:59:51Z" finished-at="2019-12-16T05:59:51Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [username_is] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [username_is] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username_is -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:casestudies.casestudies.Registerpage@3bfdc050]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-12-16T05:59:51Z" finished-at="2019-12-16T05:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- casestudies.casestudies.Registerpage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
